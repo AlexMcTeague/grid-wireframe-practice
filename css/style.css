@@ -29,7 +29,8 @@
         "aside2"
         "footer";
     justify-items: center;
-    align-items: center;
+    align-items: stretch;
+    gap: 0.5em;
 }
 
 #content-section > * {
@@ -45,7 +46,7 @@ div {
     align-items: center;
 }
 
-header {
+.header {
     background-color: var(--header-color);
 
     grid-area: header;
@@ -83,7 +84,7 @@ header {
     grid-area: aside2;
 }
 
-footer {
+.footer {
     background-color: var(--footer-color);
 
     grid-area: footer;
