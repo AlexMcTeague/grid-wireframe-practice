@@ -31,6 +31,8 @@
     justify-items: center;
     align-items: stretch;
     gap: 0.5em;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
 }
 
 #content-section > * {
@@ -44,6 +46,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: max(1rem, 6vh);
 }
 
 .header {
